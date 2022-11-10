@@ -69,13 +69,14 @@ const displayNav = () => {
     align-items: center;
     background: rgba(0, 18, 112, 0.85);
     border-radius: 50px;
-    max-width: 1090px;
     margin: auto;
     font-size: 1.5rem;
     color: white;
     font-weight: 700;
     padding-top: 15px;
     padding-bottom: 15px;
+    max-width: 1280px;
+    margin: auto;
 }
 .title-logo {
     display: flex;

@@ -22,7 +22,9 @@
 
 .description {
     margin-left: 13%;
-    margin-top: 40px;
+    margin-top: 40px !important;
+    max-width: 1280px;
+    margin: auto;
 }
 .text1 {
     color: white;

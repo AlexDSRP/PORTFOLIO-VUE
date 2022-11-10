@@ -13,6 +13,10 @@ defineProps(["image", "value"]);
     </section>
 </template>
 <style>
+#container1 {
+    max-width: 1280px;
+    margin: auto;
+}
 .javascript {
     display: flex;
     flex-direction: column;

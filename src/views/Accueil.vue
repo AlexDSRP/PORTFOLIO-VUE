@@ -198,11 +198,12 @@ body {
 }
 .header-descript {
     position: relative;
-    background: url(../assets/background_desktop.jpg);
+    background: url(../assets/background_desktop.jpg), no-repeat;
     width: 100%;
-    background-position: 0% 55%;
+    background-position: 0% 50%;
     padding-top: 40px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
+    background-size: cover;
 }
 h2 {
     align-items: center;
@@ -211,6 +212,8 @@ h2 {
     font-family: "Bungee";
     font-style: normal;
     font-size: 48px;
+    max-width: 1280px;
+    margin: auto;
 }
 .elliptical {
     position: absolute;
@@ -342,15 +345,19 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
-    margin-top: 100px;
+    justify-content: space-between;
+    margin-top: 100px !important;
+    max-width: 1280px;
+    margin: auto;
 }
 .logoCompet2 {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    margin: 50px 200px;
+    margin-top: 50px !important;
+    max-width: 1280px;
+    margin: auto;
 }
 #container2 {
     margin-top: 100px;
@@ -369,9 +376,8 @@ h2 {
     border-radius: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-.img-barre {
-    justify-content: center;
+    max-width: 1280px;
+    margin: auto;
 }
 .barre-text {
     display: flex;
