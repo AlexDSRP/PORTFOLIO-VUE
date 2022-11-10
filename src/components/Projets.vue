@@ -12,6 +12,7 @@ defineProps(["image", "name"]);
 </template>
 <style>
 .projet {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,9 +62,10 @@ li {
     margin-left: 20px;
 }
 .cliquez {
-    position: static;
+    position: absolute;
     background: #a0ff9a;
     box-shadow: 0px 0px 5px #a0ff9a;
+    bottom: -30px;
     border-radius: 40px;
     font-family: "Montserrat";
     font-weight: 700;
@@ -73,7 +75,6 @@ li {
     text-align: center;
     color: #0d2e91;
     padding: 10px 15px 10px 15px;
-    margin-bottom: -20px;
     cursor: pointer;
 }
 .cliquez:hover {
@@ -85,6 +86,27 @@ li {
     .image {
         width: 97%;
         height: 250px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .image {
+        width: 97%;
+        height: 350px;
+    }
+    h4 {
+        margin-top: 70px;
+    }
+
+    .container1 {
+        width: 500px;
+    }
+
+    .projet {
+        height: 550px;
+    }
+    .cliquez {
+        font-size: 30px;
     }
 }
 

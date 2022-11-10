@@ -202,10 +202,11 @@ body {
     width: 100%;
     background-position: 0% 50%;
     padding-top: 40px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     background-size: cover;
 }
 h2 {
+    position: relative;
     align-items: center;
     text-align: center;
     color: white;
@@ -214,21 +215,22 @@ h2 {
     font-size: 48px;
     max-width: 1280px;
     margin: auto;
+    z-index: 2;
 }
 .elliptical {
     position: absolute;
     width: 320px;
     height: 280px;
-    left: 40px;
-    top: 570px;
+    left: 8%;
+    top: 650px;
     transform: rotate(108.95deg);
 }
 .squigly {
     position: absolute;
     width: 332px;
     height: 330px;
-    left: 1210px;
-    top: 580px;
+    left: 88%;
+    top: 650px;
     transform: rotate(68.9deg);
 }
 .etoiles1 {
@@ -307,7 +309,7 @@ h2 {
     position: absolute;
     width: 666.35px;
     height: 479.31px;
-    left: -98px;
+    left: 2%;
     top: 1550px;
     filter: blur(7px);
     transform: rotate(-4.49deg);
@@ -316,9 +318,10 @@ h2 {
     position: absolute;
     width: 347px;
     height: 329px;
-    left: 1054px;
+    left: 70%;
     top: 1620px;
     filter: blur(2px);
+    z-index: 1;
 }
 .gilet {
     position: absolute;
@@ -412,26 +415,27 @@ h2 {
 .projets {
     margin-bottom: 140px;
 }
+
 .blocprojets1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 120px;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-top: 120px !important;
+    max-width: 1280px;
+    margin: auto;
 }
 .blocprojets2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-top: 100px !important;
+    max-width: 1280px;
+    margin: auto;
 }
 .blocprojets3 {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-top: 100px !important;
+    max-width: 1280px;
+    margin: auto;
 }
 
 @media all and (max-width: 1190px) {
@@ -492,6 +496,7 @@ h2 {
         display: flex;
         flex-direction: column;
         margin-bottom: none;
+        width: 60%;
     }
     .bloc-pr,
     .bloc-pr2,

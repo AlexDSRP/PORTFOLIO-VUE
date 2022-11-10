@@ -21,8 +21,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 13%;
-    margin-top: 40px !important;
+    margin-top: 100px !important;
     max-width: 1280px;
     margin: auto;
 }
@@ -51,6 +54,9 @@ h3 {
     font-weight: lighter;
     font-size: 24px;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .text3 {
     display: flex;
