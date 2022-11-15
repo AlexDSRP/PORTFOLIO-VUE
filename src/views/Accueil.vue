@@ -219,16 +219,16 @@ h2 {
 }
 .elliptical {
     position: absolute;
-    width: 320px;
-    height: 280px;
-    left: 8%;
+    width: 330px;
+    height: 290px;
+    left: 7%;
     top: 650px;
     transform: rotate(108.95deg);
 }
 .squigly {
     position: absolute;
-    width: 332px;
-    height: 330px;
+    width: 342px;
+    height: 340px;
     left: 88%;
     top: 650px;
     transform: rotate(68.9deg);
@@ -307,19 +307,19 @@ h2 {
 }
 .fusee {
     position: absolute;
-    width: 666.35px;
-    height: 479.31px;
+    width: 666px;
+    height: 479px;
     left: 2%;
-    top: 1550px;
+    top: 1580px;
     filter: blur(7px);
     transform: rotate(-4.49deg);
 }
 .planete {
     position: absolute;
-    width: 347px;
-    height: 329px;
-    left: 70%;
-    top: 1620px;
+    width: 340px;
+    height: 320px;
+    left: 72%;
+    top: 1670px;
     filter: blur(2px);
     z-index: 1;
 }
@@ -366,7 +366,7 @@ h2 {
     margin-top: 100px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 .NodeMongo {
     display: flex;
