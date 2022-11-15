@@ -103,7 +103,8 @@ li {
     }
 
     .projet {
-        height: 550px;
+        height: 520px;
+        width: 430px;
     }
     .cliquez {
         font-size: 30px;
