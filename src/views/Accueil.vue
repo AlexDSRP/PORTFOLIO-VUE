@@ -310,7 +310,7 @@ h2 {
     width: 666px;
     height: 479px;
     left: 2%;
-    top: 1580px;
+    top: 39%;
     filter: blur(7px);
     transform: rotate(-4.49deg);
 }
@@ -319,7 +319,7 @@ h2 {
     width: 340px;
     height: 320px;
     left: 72%;
-    top: 1670px;
+    top: 41%;
     filter: blur(2px);
     z-index: 1;
 }
