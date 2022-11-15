@@ -419,21 +419,21 @@ h2 {
 .blocprojets1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 120px !important;
+    margin-top: 130px !important;
     max-width: 1280px;
     margin: auto;
 }
 .blocprojets2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px !important;
+    margin-top: 120px !important;
     max-width: 1280px;
     margin: auto;
 }
 .blocprojets3 {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px !important;
+    margin-top: 120px !important;
     max-width: 1280px;
     margin: auto;
 }
