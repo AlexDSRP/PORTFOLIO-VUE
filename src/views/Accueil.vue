@@ -319,7 +319,7 @@ h2 {
     width: 340px;
     height: 320px;
     left: 72%;
-    top: 41%;
+    top: 42%;
     filter: blur(2px);
     z-index: 1;
 }
@@ -327,17 +327,17 @@ h2 {
     position: absolute;
     width: 115px;
     height: 120px;
-    left: 50px;
-    top: 3380px;
+    left: 90px;
+    top: 93%;
     filter: blur(2.5px);
     transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
 }
 .squigly2 {
     position: absolute;
-    width: 352px;
-    height: 350px;
+    width: 362px;
+    height: 360px;
     left: -100px;
-    top: 2450px;
+    top: 70%;
     filter: blur(2.5px);
     transform: rotate(68.9deg);
 }
