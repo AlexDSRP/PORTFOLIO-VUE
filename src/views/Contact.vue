@@ -79,9 +79,13 @@ const sendEmail = (e) => {
         ),
         url(../assets/background_desktop.jpg);
     padding-top: 40px;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 225px;
+    max-height: 100%;
 }
 .formulaire {
-    margin-top: 110px;
+    margin-top: 140px;
     animation: flicker-in-1 3s linear 3.5s both;
 }
 form {
@@ -138,10 +142,9 @@ label {
     box-shadow: 0px 0px 30px #a0ff9a;
     border-radius: 20px;
     border: none;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 14rem;
     height: 5rem;
-    margin-bottom: 30px;
     cursor: pointer;
 }
 .envoyer:hover {
