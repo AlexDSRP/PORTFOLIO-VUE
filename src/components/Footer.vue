@@ -14,22 +14,22 @@
             />
         </div>
         <nav class="menu">
-            <img
-                class="logoFooter"
-                src="../assets/github-1.webp"
-                alt="lien github"
-            />
-            <img
-                class="logoFooter"
-                src="../assets/logoLink.webp"
-                alt="lien linkedin"
-            />
-            <img
-                class="logoFooter"
-                id="discord"
-                src="../assets/logoDiscord.webp"
-                alt="lien discord"
-            />
+            <a href="https://github.com/AlexDSRP">
+                <img
+                    src="../assets/github-1.webp"
+                    alt="lien github"
+                    class="logoFooter"
+                />
+            </a>
+            <a
+                href="https://www.linkedin.com/in/alexandre-dos-reis-pereira-dev/"
+            >
+                <img
+                    class="logoFooter"
+                    src="../assets/logoLink.webp"
+                    alt="lien linkedin"
+                />
+            </a>
             <div class="Contact" @click="this.$router.push('contact')">
                 CONTACT
             </div>
@@ -100,10 +100,7 @@ h1 {
 .logoFooter {
     width: 39px;
     height: 39px;
-}
-#discord {
-    width: 45px;
-    height: 45px;
+    padding-right: 10px;
 }
 @media all and (max-width: 1190px) {
     .footer {

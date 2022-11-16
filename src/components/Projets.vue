@@ -5,10 +5,13 @@ defineProps(["image", "name"]);
     <div class="projet">
         <img class="image" :src="image" alt="image du projet" />
         <h4>{{ name }}</h4>
-        <div class="cliquez">Cliquez</div>
+        <a href="https://github.com/AlexDSRP" class="cliquez">Cliquez</a>
     </div>
 </template>
 <style>
+a {
+    text-decoration: none;
+}
 .projet {
     position: relative;
     display: flex;
