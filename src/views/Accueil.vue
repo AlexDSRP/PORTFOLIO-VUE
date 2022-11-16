@@ -509,4 +509,12 @@ h2 {
         margin-bottom: 70px !important;
     }
 }
+@media all and (max-width: 790px) {
+    .header-descript {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        background-size: cover;
+    }
+}
 </style>

@@ -169,7 +169,7 @@ a {
         display: none;
     }
     .title-logo {
-        margin-left: 33%;
+        margin-left: 30%;
     }
 }
 

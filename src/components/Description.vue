@@ -12,7 +12,8 @@
             ios.
             <div class="text3">
                 <span id="text4"> Suis moi </span>
-                dans les profondeurs pour découvrir mon profil
+                dans les profondeurs
+                <span id="text5"> découvrir mon profil </span>
             </div>
         </div>
     </div>
@@ -72,6 +73,9 @@ h3 {
     font-weight: 600;
     animation: flicker-in-2 4s linear 1s both;
 }
+#text5 {
+    margin-left: 6px;
+}
 @media all and (max-width: 1190px) {
     .description {
         justify-content: center;
@@ -97,7 +101,7 @@ h3 {
         align-items: center;
         justify-content: center;
     }
-    .text4 {
+    #text4 {
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -108,7 +112,16 @@ h3 {
         white-space: nowrap;
         display: flex;
         flex-direction: column;
-        margin: 0px !important;
+        margin-top: 0px !important;
+    }
+    .text2 {
+        font-size: 18px;
+    }
+    #text4 {
+        white-space: nowrap;
+    }
+    #text5 {
+        display: none;
     }
 }
 @keyframes flicker-in-2 {
