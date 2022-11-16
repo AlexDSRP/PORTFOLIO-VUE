@@ -167,19 +167,21 @@ const projets3 = [
         </section>
         <div class="projets" id="projets">
             <h2>PROJETS</h2>
-            <div class="blocprojets1">
-                <div class="bloc-pr" v-for="projet in projets1">
-                    <Projets :image="projet.image" :name="projet.name" />
+            <div class="blocprojet">
+                <div class="blocprojets1">
+                    <div class="bloc-pr" v-for="projet in projets1">
+                        <Projets :image="projet.image" :name="projet.name" />
+                    </div>
                 </div>
-            </div>
-            <div class="blocprojets2">
-                <div class="bloc-pr2" v-for="projet in projets2">
-                    <Projets :image="projet.image" :name="projet.name" />
+                <div class="blocprojets2">
+                    <div class="bloc-pr2" v-for="projet in projets2">
+                        <Projets :image="projet.image" :name="projet.name" />
+                    </div>
                 </div>
-            </div>
-            <div class="blocprojets3">
-                <div class="bloc-pr2" v-for="projet in projets3">
-                    <Projets :image="projet.image" :name="projet.name" />
+                <div class="blocprojets3">
+                    <div class="bloc-pr2" v-for="projet in projets3">
+                        <Projets :image="projet.image" :name="projet.name" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,9 +231,9 @@ h2 {
     position: absolute;
     width: 342px;
     height: 340px;
-    left: 1686px;
+    right: -105px;
     top: 650px;
-    transform: rotate(68.9deg);
+    transform: rotate(70deg);
 }
 .etoiles1 {
     position: absolute;
@@ -414,14 +416,22 @@ h2 {
 }
 .projets {
     margin-bottom: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
+.blocprojet {
+    align-items: center;
+    text-align: center;
+}
 .blocprojets1 {
     display: flex;
     justify-content: space-between;
     margin-top: 130px !important;
     max-width: 1280px;
     margin: auto;
+    align-items: center;
+    text-align: center;
 }
 .blocprojets2 {
     display: flex;
