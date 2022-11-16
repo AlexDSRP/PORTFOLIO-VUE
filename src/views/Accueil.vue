@@ -304,18 +304,18 @@ h2 {
 }
 .fusee {
     position: absolute;
-    width: 666px;
-    height: 479px;
+    width: 676px;
+    height: 489px;
     top: 42%;
     filter: blur(7px);
     transform: rotate(-4.49deg);
 }
 .planete {
     position: absolute;
-    width: 340px;
-    height: 320px;
+    width: 350px;
+    height: 330px;
     left: 72%;
-    top: 45%;
+    top: 44.5%;
     filter: blur(2px);
     z-index: 1;
 }
@@ -406,7 +406,7 @@ h2 {
     text-align: center;
 }
 .blocprojet {
-    margin-top: 200px;
+    margin-top: 210px;
 }
 .blocprojet {
     align-items: center;
@@ -415,21 +415,20 @@ h2 {
 .blocprojets1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 130px !important;
     max-width: 1280px;
     margin: auto;
 }
 .blocprojets2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 120px !important;
+    margin-top: 140px !important;
     max-width: 1280px;
     margin: auto;
 }
 .blocprojets3 {
     display: flex;
     justify-content: space-between;
-    margin-top: 120px !important;
+    margin-top: 140px !important;
     max-width: 1280px;
     margin: auto;
 }
