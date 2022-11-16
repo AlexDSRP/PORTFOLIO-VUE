@@ -63,7 +63,7 @@ li {
     position: absolute;
     background: #a0ff9a;
     box-shadow: 0px 0px 5px #a0ff9a;
-    bottom: -30px;
+    bottom: -25px;
     border-radius: 40px;
     font-family: "Montserrat";
     font-weight: 700;
@@ -84,6 +84,14 @@ li {
     .image {
         width: 97%;
         height: 250px;
+    }
+    h4 {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .cliquez {
+        font-size: 23px;
+        bottom: -22px;
     }
 }
 
@@ -106,7 +114,7 @@ li {
         width: 330px;
     }
     .cliquez {
-        font-size: 30px;
+        font-size: 26px;
     }
 }
 

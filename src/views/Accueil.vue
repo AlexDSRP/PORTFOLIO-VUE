@@ -111,11 +111,6 @@ const projets3 = [
             src="../assets/squigly.webp"
             alt="image de fond"
         />
-        <img
-            class="gilet"
-            src="../assets/giletSauvetage.webp"
-            alt="image de fond"
-        />
         <div class="competences">
             <h2 id="competences">COMPETENCES</h2>
             <div class="logoCompet">
@@ -311,8 +306,7 @@ h2 {
     position: absolute;
     width: 666px;
     height: 479px;
-    left: 2%;
-    top: 39%;
+    top: 42%;
     filter: blur(7px);
     transform: rotate(-4.49deg);
 }
@@ -321,18 +315,9 @@ h2 {
     width: 340px;
     height: 320px;
     left: 72%;
-    top: 42%;
+    top: 45%;
     filter: blur(2px);
     z-index: 1;
-}
-.gilet {
-    position: absolute;
-    width: 115px;
-    height: 120px;
-    left: 90px;
-    top: 93%;
-    filter: blur(2.5px);
-    transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
 }
 .squigly2 {
     position: absolute;
@@ -368,7 +353,7 @@ h2 {
     margin-top: 100px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 .NodeMongo {
     display: flex;
@@ -421,6 +406,9 @@ h2 {
     text-align: center;
 }
 .blocprojet {
+    margin-top: 200px;
+}
+.blocprojet {
     align-items: center;
     text-align: center;
 }
@@ -430,8 +418,6 @@ h2 {
     margin-top: 130px !important;
     max-width: 1280px;
     margin: auto;
-    align-items: center;
-    text-align: center;
 }
 .blocprojets2 {
     display: flex;
@@ -462,8 +448,7 @@ h2 {
     .etoiles7,
     .etoiles8,
     .etoiles9,
-    .fusee,
-    .gilet {
+    .fusee {
         display: none;
     }
     .header-descript {
