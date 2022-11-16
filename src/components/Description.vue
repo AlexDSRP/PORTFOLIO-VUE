@@ -103,6 +103,14 @@ h3 {
         justify-content: center;
     }
 }
+@media all and (max-width: 790px) {
+    .text1 {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        margin: 0px !important;
+    }
+}
 @keyframes flicker-in-2 {
     0% {
         text-shadow: 0px 0px 0px #b2faad;

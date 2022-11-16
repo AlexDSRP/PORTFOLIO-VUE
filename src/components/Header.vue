@@ -158,6 +158,21 @@ a {
         flex-direction: row;
     }
 }
+@media all and (max-width: 790px) {
+    .header {
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    #barre {
+        display: none;
+    }
+    .title-logo {
+        margin-left: 33%;
+    }
+}
+
 @keyframes flicker-in-2 {
     0% {
         box-shadow: 0px 0px 0px #b2faad;
