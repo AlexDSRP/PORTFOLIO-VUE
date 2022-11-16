@@ -2,13 +2,11 @@
 defineProps(["image", "name"]);
 </script>
 <template>
-    <section class="container1">
-        <div class="projet">
-            <img class="image" :src="image" alt="image du projet" />
-            <h4>{{ name }}</h4>
-            <div class="cliquez">Cliquez</div>
-        </div>
-    </section>
+    <div class="projet">
+        <img class="image" :src="image" alt="image du projet" />
+        <h4>{{ name }}</h4>
+        <div class="cliquez">Cliquez</div>
+    </div>
 </template>
 <style>
 .projet {
@@ -95,7 +93,8 @@ li {
         height: 350px;
     }
     h4 {
-        margin-top: 70px;
+        margin-top: 40px;
+        margin-bottom: 70px;
     }
 
     .container1 {
@@ -103,8 +102,8 @@ li {
     }
 
     .projet {
-        height: 480px;
-        width: 390px;
+        height: 420px;
+        width: 330px;
     }
     .cliquez {
         font-size: 30px;
