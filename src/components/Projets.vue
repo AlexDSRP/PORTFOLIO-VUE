@@ -91,7 +91,7 @@ li {
 
 @media (min-width: 1280px) {
     .image {
-        width: 97%;
+        width: 95%;
         height: 350px;
     }
     h4 {
@@ -103,8 +103,8 @@ li {
     }
 
     .projet {
-        height: 520px;
-        width: 430px;
+        height: 480px;
+        width: 390px;
     }
     .cliquez {
         font-size: 30px;

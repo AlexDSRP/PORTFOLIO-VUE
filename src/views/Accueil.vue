@@ -229,7 +229,7 @@ h2 {
     position: absolute;
     width: 342px;
     height: 340px;
-    left: 88%;
+    left: 1686px;
     top: 650px;
     transform: rotate(68.9deg);
 }
@@ -509,6 +509,7 @@ h2 {
         flex-direction: column;
         margin-top: 0px !important;
         margin-top: 100px;
+        width: 60%;
     }
     .projets {
         margin-bottom: 70px !important;
