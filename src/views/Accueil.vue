@@ -516,5 +516,22 @@ h2 {
         padding-bottom: 70px;
         background-size: cover;
     }
+    .competences {
+        margin-top: 100px !important;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    .logoCompet {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px !important;
+    }
+    .logoCompet2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px !important;
+        padding-right: 12px;
+    }
 }
 </style>

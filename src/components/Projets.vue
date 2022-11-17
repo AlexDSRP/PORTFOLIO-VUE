@@ -120,7 +120,8 @@ li {
         font-size: 26px;
     }
 }
-
+@media all and (max-width: 790px) {
+}
 @keyframes vibrate-2 {
     0% {
         -webkit-transform: translate(0);

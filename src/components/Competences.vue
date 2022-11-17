@@ -52,6 +52,19 @@ defineProps(["image", "value"]);
     width: 162px;
     height: 151px;
 }
+@media all and (max-width: 790px) {
+    .logo1 {
+        width: 122px;
+        height: 111px;
+    }
+    #container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
 @-webkit-keyframes rotate-vert-center {
     0% {
         -webkit-transform: rotateY(0);

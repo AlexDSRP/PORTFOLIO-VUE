@@ -140,6 +140,9 @@ a {
         cursor: pointer;
         padding-right: 60%;
     }
+    #barre {
+        display: none;
+    }
     .apropos,
     .projets,
     .contact {
