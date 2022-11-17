@@ -174,6 +174,9 @@ a {
     .title-logo {
         margin-left: 30%;
     }
+    .infomenu {
+        visibility: hidden;
+    }
 }
 
 @keyframes flicker-in-2 {

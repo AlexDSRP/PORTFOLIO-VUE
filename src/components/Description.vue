@@ -7,8 +7,8 @@
         </div>
         <div class="text2">
             Je viens d’obtenir mon diplôme de developpeur web junior et je suis
-            à la recherche <br />d'un poste en CDI ou d’une altenance en tant
-            que developpeur d’application ios.
+            à la recherche d'un poste en CDI ou d’une altenance en tant que
+            developpeur d’application ios.
             <div class="text3">
                 <span id="text4"> Suis moi </span>
                 dans les profondeurs
@@ -57,6 +57,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .text3 {
     display: flex;
