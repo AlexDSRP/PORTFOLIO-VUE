@@ -533,5 +533,15 @@ h2 {
         margin-top: 0px !important;
         padding-right: 12px;
     }
+    .squigly {
+        position: absolute;
+        display: flex;
+        width: 180px;
+        height: 180px;
+        left: -50px;
+        top: 13%;
+        filter: blur(1.5px);
+        transform: rotate(68.9deg);
+    }
 }
 </style>
