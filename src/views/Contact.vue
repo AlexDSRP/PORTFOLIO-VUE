@@ -152,7 +152,26 @@ label {
     box-shadow: 0px 0px 40px #a0ff9a;
     animation: vibrate-2 0.3s linear infinite both;
 }
-
+@media all and (max-width: 790px) {
+    .formulaire {
+        margin-top: 100px !important;
+    }
+    .prenom-nom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #prenom {
+        margin: 25px !important;
+    }
+    #email {
+        width: 30rem !important;
+        margin-top: 25px !important ;
+    }
+    #message {
+        width: 30rem !important;
+    }
+}
 @keyframes vibrate-2 {
     0% {
         -webkit-transform: translate(0);

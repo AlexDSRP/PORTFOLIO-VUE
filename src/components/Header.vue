@@ -11,7 +11,7 @@ const scrollIntoView = (e) => {
     }
 };
 
-const windowSize = ref(window.innerWidth);
+/*const windowSize = ref(window.innerWidth);
 onMounted(() => {
     window.addEventListener("resize", () => {
         windowSize.value = window.innerWidth;
@@ -28,7 +28,9 @@ console.log(windowSize.value);
 const isDisplay = ref(false);
 const displayNav = () => {
     isDisplay.value = !isDisplay.value;
-};
+};*/
+
+//v-if="isDisplay || text > 1190"
 </script>
 
 <template>
@@ -50,7 +52,7 @@ const displayNav = () => {
                 src="../assets/apple.webp"
                 @click="displayNav"
             />
-            <div class="infomenu" v-if="isDisplay || text > 1190">
+            <div class="infomenu">
                 <a class="apropos" @click="scrollIntoView">A PROPOS</a>
                 <a class="projets" @click="scrollIntoView">PROJETS</a>
                 <a class="contact" @click="this.$router.push('contact')">
@@ -159,6 +161,9 @@ a {
         align-items: flex-start;
         justify-content: center;
         flex-direction: row;
+    }
+    .infomenu {
+        visibility: hidden;
     }
 }
 @media all and (max-width: 790px) {

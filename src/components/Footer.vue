@@ -108,6 +108,34 @@ h1 {
         margin-right: 60px;
     }
 }
+@media all and (max-width: 790px) {
+    .footer {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #barre {
+        display: none;
+    }
+    .logoFooter {
+        width: 25px;
+        height: 25px;
+        padding-right: 5px !important;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    .logo {
+        width: 15px;
+        height: 15px;
+        margin-left: 3px;
+    }
+    .menu > div {
+        padding: 0px 0px !important;
+    }
+    .Contact {
+        font-size: 12px;
+    }
+}
 @-webkit-keyframes shake-lr {
     0%,
     100% {

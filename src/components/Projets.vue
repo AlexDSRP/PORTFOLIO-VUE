@@ -85,7 +85,7 @@ li {
 }
 @media all and (max-width: 1190px) {
     .image {
-        width: 97%;
+        width: 95%;
         height: 250px;
     }
     h4 {

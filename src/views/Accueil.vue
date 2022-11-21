@@ -552,5 +552,33 @@ h2 {
         top: 13%;
         transform: rotate(70deg);
     }
+    .NodeMongo {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    #container2 {
+        margin: auto;
+        margin-bottom: 80px !important;
+    }
+    .title {
+        font-size: 26px;
+        margin-left: 17px !important;
+        margin-top: 20px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .blocprojet {
+        margin-top: 80px !important;
+    }
+    .blocprojets1,
+    .blocprojets2,
+    .blocprojets3 {
+        width: 80%;
+    }
+    .image {
+        width: 95%;
+        height: 230px;
+    }
 }
 </style>
