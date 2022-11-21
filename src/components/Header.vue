@@ -144,6 +144,7 @@ a {
     }
     #barre {
         display: none;
+        bottom: -10px;
     }
     .apropos,
     .projets,
@@ -168,19 +169,21 @@ a {
 }
 @media all and (max-width: 790px) {
     .header {
-        margin-left: 30px !important;
-        margin-right: 30px !important;
-        display: flex;
-        justify-content: space-between;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
     }
     #barre {
-        display: none;
-    }
-    .title-logo {
-        margin-left: 30%;
+        display: flex;
     }
     .infomenu {
-        visibility: hidden;
+        display: none;
+    }
+    .navbar {
+        display: none;
     }
 }
 

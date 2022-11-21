@@ -560,9 +560,15 @@ h2 {
         margin: auto;
         margin-bottom: 80px !important;
     }
+    .textInfo {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
     .title {
         font-size: 26px;
-        margin-left: 17px !important;
+        margin-left: 0px !important;
         margin-top: 20px;
     }
     .text {
